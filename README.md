@@ -1,3 +1,7 @@
+# Structure of the repo
+1. dataloader.py stores the class (named "Dataloader")for loading csv files into data frames. Moreover, the same class has member methods for the OHLC, RSI, MACD, Bollinger Band computation and visualization.
+2. main.py simply use the class from the dataloader.py.
+
 # To execute the code
 1. install dependencies.
 ```shell
