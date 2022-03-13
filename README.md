@@ -52,11 +52,15 @@ iii) Matic
 
 ## 3. Moving Average Convergence Divergence(MACD)
 **how can the indicator generally be used to assess the market?**
-MACD shows the relationship between two moving averages of a security’s price. The MACD is calculated by subtracting the 26-period exponential moving average (EMA) from the 12-period EMA.      
+MACD shows the relationship between two moving averages of a security’s price. The MACD is calculated by subtracting the 26-period exponential moving average (EMA) from the 12-period EMA. Thus, "0 line" is a baseline for comparing the two EMA, and the more distant the MACD is above or below its baseline indicates that the distance between the two EMAs is growing.   
 
 A nine-day EMA of the MACD called the "signal line," is then plotted on top of the MACD line, which can function as a trigger for buy and sell signals. Traders may buy the security when the MACD crosses above its signal line and sell—or short—the security when the MACD crosses below the signal line. The speed of crossovers is also taken as a signal of a market is overbought or oversold.    
 
-**What do the indicators tell you about the markets and how do the markets compare to each other?**
+**What do the indicators tell you about the markets and how do the markets compare to each other?**      
+1. For all three markets, the MACDs drops and rises rapidly, especially around 15:00-17:00, this shows that the three markets has significant oversold and overbought stages. 
+2. For btc and eth markets, most of the time, the MACDs stay below 0, this indicats that for these two markets, price downward trends are more often than the upward trends. The Matic market looks more promising since its MACD stays above 0 more often than the other two markets.
+3. All three market's MACDs cross their signal lines quite often, indicating the iterating oversold and overbought stages.    
+
 i) BTC
 ![BTC_MACD](https://github.com/ChenBarryHu/fintech-tasks/blob/master/images/BTC_MACD.png)
 ii) ETH
